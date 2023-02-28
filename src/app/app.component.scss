@@ -1,0 +1,71 @@
+.home {
+  .head {
+    &_left {
+      z-index: 2;
+      top: -17px;
+    }
+
+    &_bg {
+      width: 100%;
+      transform: translateY(40px);
+    }
+
+    &_center {
+      position: absolute;
+      top: 17px;
+      left: 50%;
+      transform: translateX(-50%);
+      &_logo {
+        width: 133px;
+        height: 32px;
+      }
+
+      &_text {
+        width: 284px;
+        height: 32px;
+        margin-left: 15px;
+      }
+    }
+
+    //margin-top: 17px;
+    //width: 100vw;
+    //height: auto;
+    //background-image: url(../assets/images/head_bg.png);
+    //background-repeat: no-repeat;
+    //background-size: contain;
+    //background-position-y: 25px;
+
+    .menu {
+      transform: translate(-32px,-30px);
+
+      ::ng-deep {
+        .mat-tab-label {
+          min-width: 10px;
+          padding: 0 12px;
+
+          .mat-tab-label-content {
+            //width: 91px;
+            //height: 21px;
+            font-size: 18px;
+            font-family: Source Han Sans CN;
+            font-weight: 100;
+            color: #FFFFFF;
+            line-height: 28px;
+
+          }
+
+          &-active {
+            width: 110px;
+            height: 28px;
+            font-size: 28px;
+            font-family: Source Han Sans CN;
+            font-weight: bold;
+            color: #00FFFF;
+            line-height: 28px;
+          }
+        }
+
+      }
+    }
+  }
+}
