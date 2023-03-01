@@ -8,30 +8,32 @@
     <mat-grid-list cols="3" rowHeight="100px" class="head_left">
       <mat-grid-tile>
         <mat-tab-group mat-align-tabs="start" class="menu">
-          <mat-tab label="首页监测"></mat-tab>
-          <mat-tab label="用户数据"></mat-tab>
-          <mat-tab label="预警中心"></mat-tab>
-          <mat-tab label="设备配置"></mat-tab>
+          <mat-tab label="首页监测" (click)="navigateTo('/home')" ></mat-tab>
+          <mat-tab label="用户数据" (click)="navigateTo('/data')"></mat-tab>
+          <mat-tab label="预警中心" (click)="navigateTo('/warn')"></mat-tab>
+          <mat-tab label="设备配置" (click)="navigateTo('/equipment')"></mat-tab>
         </mat-tab-group>
       </mat-grid-tile>
       <mat-grid-tile></mat-grid-tile>
       <mat-grid-tile>
         <div class="head_right">
           <div>
-            <img class="head_icon" src="../assets/images/time.png"/>
+            <img class="head_icon" src="../assets/images/time.png" alt="时间"/>
             <span class="head_span">{{date | date:'h:mm:ss'}}</span>
           </div>
           <div>
-            <img class="head_icon" src="../assets/images/date.png"/>
+            <img class="head_icon" src="../assets/images/date.png" alt="日期"/>
             <span class="head_span">{{date | date: 'yyyy-MM-dd'}}</span>
           </div>
           <div>
-            <img class="head_icon" src="../assets/images/temp.png"/>
-            <span class="head_span">26℃</span>
+            <img class="head_icon" src="../assets/images/temp.png" alt="温度"/>
+            <span class="head_span">16-26℃</span>
           </div>
         </div>
       </mat-grid-tile>
     </mat-grid-list>
   </div>
-
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
 </div>

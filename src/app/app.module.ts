@@ -6,10 +6,18 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatTabsModule } from '@angular/material/tabs';
+import { HomeComponent } from './home/home.component';
+import { DataComponent } from './data/data.component';
+import { WarnComponent } from './warn/warn.component';
+import { EquipmentComponent } from './equipment/equipment.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    DataComponent,
+    WarnComponent,
+    EquipmentComponent
   ],
   imports: [
     BrowserModule,
