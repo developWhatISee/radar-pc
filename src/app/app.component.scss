@@ -5,6 +5,19 @@
       top: -17px;
     }
 
+    &_riht {
+
+    }
+
+    &_icon {
+      width: 16px;
+      height: 16px;
+    }
+
+    &_span {
+      color: #FFFFFF;
+    }
+
     &_bg {
       width: 100%;
       transform: translateY(40px);
@@ -15,6 +28,7 @@
       top: 17px;
       left: 50%;
       transform: translateX(-50%);
+
       &_logo {
         width: 133px;
         height: 32px;
@@ -36,7 +50,7 @@
     //background-position-y: 25px;
 
     .menu {
-      transform: translate(-32px,-30px);
+      transform: translate(-32px, -30px);
 
       ::ng-deep {
         .mat-tab-label {

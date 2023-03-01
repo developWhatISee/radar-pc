@@ -14,8 +14,23 @@
           <mat-tab label="设备配置"></mat-tab>
         </mat-tab-group>
       </mat-grid-tile>
-      <mat-grid-tile>2</mat-grid-tile>
-      <mat-grid-tile>3</mat-grid-tile>
+      <mat-grid-tile></mat-grid-tile>
+      <mat-grid-tile>
+        <div class="head_right">
+          <div>
+            <img class="head_icon" src="../assets/images/time.png"/>
+            <span class="head_span">{{date | date:'h:mm:ss'}}</span>
+          </div>
+          <div>
+            <img class="head_icon" src="../assets/images/date.png"/>
+            <span class="head_span">{{date | date: 'yyyy-MM-dd'}}</span>
+          </div>
+          <div>
+            <img class="head_icon" src="../assets/images/temp.png"/>
+            <span class="head_span">26℃</span>
+          </div>
+        </div>
+      </mat-grid-tile>
     </mat-grid-list>
   </div>
 
