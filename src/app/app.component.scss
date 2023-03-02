@@ -13,6 +13,11 @@
       position: relative;
       top: -40px;
       z-index: 2;
+
+      &_text{
+        display: flex;
+        flex-direction: row;
+      }
     }
 
     &_icon {
@@ -47,37 +52,29 @@
       }
     }
 
-    //margin-top: 17px;
-    //width: 100vw;
-    //height: auto;
-    //background-image: url(../assets/images/head_bg.png);
-    //background-repeat: no-repeat;
-    //background-size: contain;
-    //background-position-y: 25px;
 
     .menu {
-      transform: translate(-32px, -30px);
+      transform: translate(-32px, -23px);
+      opacity: 1;
+      //min-width: 100px;
 
       ::ng-deep {
+        .mat-tab-link {
+          width: 100px;
+          height: 21px;
+          min-width: 91px;
+          font-size: 18px;
+          font-family: Source Han Sans CN;
+          font-weight: 400;
+          color: #FFFFFF;
+          line-height: 28px;
+        }
         .mat-tab-label {
-          min-width: 10px;
-          padding: 0 12px;
-
-          .mat-tab-label-content {
-            //width: 91px;
-            //height: 21px;
-            font-size: 18px;
-            font-family: Source Han Sans CN;
-            font-weight: 100;
-            color: #FFFFFF;
-            line-height: 28px;
-
-          }
 
           &-active {
             width: 110px;
             height: 28px;
-            font-size: 28px;
+            font-size: 24px;
             font-family: Source Han Sans CN;
             font-weight: bold;
             color: #00FFFF;

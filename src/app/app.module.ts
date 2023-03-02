@@ -10,6 +10,8 @@ import { HomeComponent } from './home/home.component';
 import { DataComponent } from './data/data.component';
 import { WarnComponent } from './warn/warn.component';
 import { EquipmentComponent } from './equipment/equipment.component';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { EquipmentComponent } from './equipment/equipment.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatGridListModule,
-    MatTabsModule
+    MatTabsModule,
+    MatPaginatorModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
