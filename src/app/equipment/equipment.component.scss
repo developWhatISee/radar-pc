@@ -10,6 +10,12 @@ table {
   color: #00FFFF;
 }
 
+.action-btn{
+  font-family: Source Han Sans CN;
+  font-weight: 400;
+  color: #0075FF;
+}
+
 ::ng-deep {
   .mat-paginator, .mat-paginator-page-size .mat-select-trigger {
     color: white;

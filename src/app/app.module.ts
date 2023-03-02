@@ -12,6 +12,8 @@ import { WarnComponent } from './warn/warn.component';
 import { EquipmentComponent } from './equipment/equipment.component';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatTableModule } from '@angular/material/table';
+import { MatButtonModule } from '@angular/material/button';
+import { SearchBarComponent } from './search-bar/search-bar.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,8 @@ import { MatTableModule } from '@angular/material/table';
     HomeComponent,
     DataComponent,
     WarnComponent,
-    EquipmentComponent
+    EquipmentComponent,
+    SearchBarComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +31,8 @@ import { MatTableModule } from '@angular/material/table';
     MatGridListModule,
     MatTabsModule,
     MatPaginatorModule,
-    MatTableModule
+    MatTableModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
