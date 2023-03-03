@@ -1,0 +1,44 @@
+table {
+  width: 100%;
+  background-color: #24242A;;
+}
+
+.table-container {
+  padding: 1em;
+}
+
+.equipment_id {
+  font-size: 14px;
+  font-family: Source Han Sans CN;
+  font-weight: 400;
+  color: #00FFFF;
+}
+
+.action-btn{
+  font-family: Source Han Sans CN;
+  font-weight: 400;
+  color: #0075FF;
+}
+
+::ng-deep {
+  .mat-paginator, .mat-paginator-page-size .mat-select-trigger {
+    color: white;
+  }
+
+  .mat-paginator-icon,.mat-select-arrow,.mat-select-value, .mat-cell {
+    color: white;
+  }
+
+  .mat-header-cell{
+    background: #444444;
+    color: #888888;
+  }
+
+  .mat-paginator-container {
+    background-color: #24242A;;
+  }
+
+  .mat-form-field {
+    margin-right: 4px;
+  }
+}

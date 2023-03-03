@@ -13,3 +13,7 @@ export class WarnComponent implements OnInit {
   }
 
 }
+
+export interface WarnInfo {
+
+}

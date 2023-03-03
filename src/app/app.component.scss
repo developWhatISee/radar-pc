@@ -1,8 +1,45 @@
-.home {
+.main {
+  background-image: url(../assets/images/head_bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: 26px;
+  background-position-x: center;
+
   .head {
+    height: 116px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
     &_left {
-      z-index: 2;
-      top: -17px;
+
+      ::ng-deep {
+        .mat-tab-link {
+          width: 100px;
+          height: 21px;
+          min-width: 91px;
+          font-size: 18px;
+          font-family: Source Han Sans CN;
+          font-weight: 400;
+          color: #FFFFFF;
+          line-height: 28px;
+        }
+
+        .mat-tab-label {
+
+          &-active {
+            width: 110px;
+            height: 28px;
+            font-size: 24px;
+            font-family: Source Han Sans CN;
+            font-weight: bold;
+            color: #00FFFF;
+            line-height: 28px;
+          }
+        }
+      }
     }
 
     &_right {
@@ -10,11 +47,9 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      position: relative;
-      top: -40px;
-      z-index: 2;
+      margin-right: 32px;
 
-      &_text{
+      &_text {
         display: flex;
         flex-direction: row;
       }
@@ -53,36 +88,5 @@
     }
 
 
-    .menu {
-      transform: translate(-32px, -23px);
-      opacity: 1;
-      //min-width: 100px;
-
-      ::ng-deep {
-        .mat-tab-link {
-          width: 100px;
-          height: 21px;
-          min-width: 91px;
-          font-size: 18px;
-          font-family: Source Han Sans CN;
-          font-weight: 400;
-          color: #FFFFFF;
-          line-height: 28px;
-        }
-        .mat-tab-label {
-
-          &-active {
-            width: 110px;
-            height: 28px;
-            font-size: 24px;
-            font-family: Source Han Sans CN;
-            font-weight: bold;
-            color: #00FFFF;
-            line-height: 28px;
-          }
-        }
-
-      }
-    }
   }
 }
