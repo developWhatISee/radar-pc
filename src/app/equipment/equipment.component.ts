@@ -140,5 +140,136 @@ const ELEMENT_DATA: Equipment[] = [
     studentName: '黎军',
     building: 'A#2953',
     college: '经济学院'
-  }
+  },
+   {
+    isInBed: '是',
+    status: '异常',
+    createTime: '2023-06-18 14:04',
+    lastEditTime: '2023-07-06 23:45',
+    equipmentId: 'RadarXP1108',
+    studentName: '秦静',
+    building: 'A#4011',
+    college: '经济学院'
+  },
+  {
+    isInBed: '否',
+    status: '正常',
+    createTime: '2023-08-29 03:03',
+    lastEditTime: '2023-07-01 17:10',
+    equipmentId: 'RadarXP1224',
+    studentName: '马超',
+    building: 'A#7018',
+    college: '生物医学工程学院'
+  },
+  {
+    isInBed: '是',
+    status: '正常',
+    createTime: '2023-06-22 12:44',
+    lastEditTime: '2023-03-20 17:57',
+    equipmentId: 'RadarXP1932',
+    studentName: '何娟',
+    building: 'A#4807',
+    college: '新闻与传播学院'
+  },
+  {
+    isInBed: '否',
+    status: '正常',
+    createTime: '2023-05-29 22:35',
+    lastEditTime: '2023-02-20 06:57',
+    equipmentId: 'RadarXP1467',
+    studentName: '黎军',
+    building: 'A#2953',
+    college: '经济学院'
+  },
+   {
+    isInBed: '是',
+    status: '异常',
+    createTime: '2023-06-18 14:04',
+    lastEditTime: '2023-07-06 23:45',
+    equipmentId: 'RadarXP1108',
+    studentName: '秦静',
+    building: 'A#4011',
+    college: '经济学院'
+  },
+  {
+    isInBed: '否',
+    status: '正常',
+    createTime: '2023-08-29 03:03',
+    lastEditTime: '2023-07-01 17:10',
+    equipmentId: 'RadarXP1224',
+    studentName: '马超',
+    building: 'A#7018',
+    college: '生物医学工程学院'
+  },
+  {
+    isInBed: '是',
+    status: '正常',
+    createTime: '2023-06-22 12:44',
+    lastEditTime: '2023-03-20 17:57',
+    equipmentId: 'RadarXP1932',
+    studentName: '何娟',
+    building: 'A#4807',
+    college: '新闻与传播学院'
+  },
+  {
+    isInBed: '否',
+    status: '正常',
+    createTime: '2023-05-29 22:35',
+    lastEditTime: '2023-02-20 06:57',
+    equipmentId: 'RadarXP1467',
+    studentName: '黎军',
+    building: 'A#2953',
+    college: '经济学院'
+  },
+ {
+    isInBed: '否',
+    status: '正常',
+    createTime: '2023-05-29 22:35',
+    lastEditTime: '2023-02-20 06:57',
+    equipmentId: 'RadarXP1467',
+    studentName: '黎军',
+    building: 'A#2953',
+    college: '经济学院'
+  },
+   {
+    isInBed: '是',
+    status: '异常',
+    createTime: '2023-06-18 14:04',
+    lastEditTime: '2023-07-06 23:45',
+    equipmentId: 'RadarXP1108',
+    studentName: '秦静',
+    building: 'A#4011',
+    college: '经济学院'
+  },
+  {
+    isInBed: '否',
+    status: '正常',
+    createTime: '2023-08-29 03:03',
+    lastEditTime: '2023-07-01 17:10',
+    equipmentId: 'RadarXP1224',
+    studentName: '马超',
+    building: 'A#7018',
+    college: '生物医学工程学院'
+  },
+  {
+    isInBed: '是',
+    status: '正常',
+    createTime: '2023-06-22 12:44',
+    lastEditTime: '2023-03-20 17:57',
+    equipmentId: 'RadarXP1932',
+    studentName: '何娟',
+    building: 'A#4807',
+    college: '新闻与传播学院'
+  },
+  {
+    isInBed: '否',
+    status: '正常',
+    createTime: '2023-05-29 22:35',
+    lastEditTime: '2023-02-20 06:57',
+    equipmentId: 'RadarXP1467',
+    studentName: '黎军',
+    building: 'A#2953',
+    college: '经济学院'
+  },
+
 ];
