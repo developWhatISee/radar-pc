@@ -6,6 +6,7 @@
          [routerLink]="link.link"
          routerLinkActive #rla="routerLinkActive"
          [active]="rla.isActive"
+         (click)="$event.preventDefault()"
       >
         {{link.label}}
       </a>

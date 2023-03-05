@@ -17,11 +17,13 @@ export class EquipmentComponent implements OnInit {
     this.dataSource.paginator = this.paginator;
   }
 
-  getRecord (name: string) {
+  getRecord (name: string, e: MouseEvent) {
+    e.preventDefault();
     alert('打开窗口编辑' + name);
   }
 
-  activate (name: string) {
+  activate (name: string,e: MouseEvent) {
+    e.preventDefault();
     alert('已启用' + name);
   }
 
