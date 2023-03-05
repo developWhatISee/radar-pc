@@ -12,4 +12,13 @@ export class SearchBarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  search (e: MouseEvent){
+    e.preventDefault();
+    alert('点击了查询按钮');
+  }
+
+  reset (e: MouseEvent) {
+    e.preventDefault();
+    alert('点击了重置按钮');
+  }
 }
