@@ -75,6 +75,7 @@ export interface WarnInfo {
   college: string;
 }
 
+// for demo
 const ELEMENT_DATA: WarnInfo[] = [
   {
     asleepRate: '83',
